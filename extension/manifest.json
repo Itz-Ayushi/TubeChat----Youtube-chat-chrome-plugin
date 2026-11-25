@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Chat",
+  "version": "1.0.0",
+  "description": "Chat with any YouTube video using its transcript (RAG).",
+  "permissions": ["sidePanel", "tabs"],
+  "host_permissions": ["http://localhost:8000/*"],
+  "background": { "service_worker": "background.js" },
+  "side_panel": { "default_path": "sidepanel.html" },
+  "action": { "default_title": "Chat with this video" },
+  "icons": { "16": "icons/16.png", "48": "icons/48.png", "128": "icons/128.png" }
+}

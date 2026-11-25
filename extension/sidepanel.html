@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>YouTube Chat</title>
+  <link rel="stylesheet" href="sidepanel.css" />
+</head>
+<body>
+  <header>
+    <div class="title">Chat with this video</div>
+    <div id="status" class="status">Open a YouTube video to start.</div>
+  </header>
+
+  <main id="messages"></main>
+
+  <footer>
+    <div class="chips" id="chips" hidden>
+      <button class="chip" data-q="Can you summarize the video?">Summarize</button>
+      <button class="chip" data-q="What are the key takeaways?">Key takeaways</button>
+    </div>
+    <div class="input-row">
+      <textarea id="input" rows="1" placeholder="Ask something about the video…" disabled></textarea>
+      <button id="send" disabled>Send</button>
+    </div>
+  </footer>
+
+  <script src="sidepanel.js"></script>
+</body>
+</html>
