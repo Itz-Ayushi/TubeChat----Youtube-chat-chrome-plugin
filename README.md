@@ -156,6 +156,6 @@ After editing extension files, click the reload icon on the extension's card at 
 - [`youtube-transcript-api`](https://github.com/jdepoix/youtube-transcript-api) for transcript access
 - [LangChain](https://www.langchain.com/), [FAISS](https://github.com/facebookresearch/faiss), and [Sentence Transformers](https://www.sbert.net/)
 
-## License
+<!--## License
 
-Add a license of your choice (for example MIT) before publishing.
+Add a license of your choice (for example MIT) before publishing.-->
